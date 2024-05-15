@@ -1,4 +1,5 @@
 import axios from 'axios';
+// import apiClient from '@/services/api';
 import { APIErrorResponse } from './types';
 import { LoginResponse } from './auth/types';
 import { router } from 'expo-router';
@@ -27,7 +28,7 @@ export async function refreshAccessToken(): Promise<LoginResponse> {
     }
 
     const response = await axios.post<LoginResponse>(
-      'mobile/auth/caregivers/refresh-token',
+      'auth/caregivers/refresh-token',
       {
         refreshToken,
       }

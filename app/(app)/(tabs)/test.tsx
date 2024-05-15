@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-
+import { refreshAccessToken } from '@/services/apiHelpersConfig';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 import { useSession } from '../../../context';
@@ -17,6 +17,10 @@ export default function TabTestScreen() {
       <Text
         onPress={() => signOut()}>
         Sign out
+      </Text>
+      <Text
+        onPress={() => refreshAccessToken()}>
+        Send refreshToken
       </Text>
     </View>
   );

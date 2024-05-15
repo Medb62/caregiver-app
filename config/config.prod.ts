@@ -6,5 +6,8 @@
  * https://reactnative.dev/docs/security#storing-sensitive-info
  */
 export default {
-  API_URL: "http://localhost:3000/api/v1/",
-}
+  API_URL: 'http://localhost:3000/api/v1/',
+  languageConfig: {
+    defaultLanguage: 'fr-FR',
+  },
+};

@@ -1,0 +1,25 @@
+export default {
+  roles: 'Roles',
+  'role privileges for role': 'Role privileges for {{role}}',
+  'role name': 'Role name',
+  'enter a role name': 'Enter a role name',
+  'please enter a role name': 'Please enter a role name',
+  'role description': 'Role description',
+  'enter a role description': 'Enter a role description',
+  'please enter a role description': 'Please enter a role description',
+  'enable all': 'Enable All',
+  'disable all': 'Disable All',
+  'delete role': 'Delete role',
+  'role management': 'Role Management',
+  'create a new role': 'Create a new role',
+  'delete an existing role': 'Delete an existing role',
+  'update a role (change its privileges)':
+    'Update a role (change its privileges)',
+  'admin management': 'Admin management',
+  'create an admin account': 'Create an admin account',
+  'block/unblock an admin account': 'Block/Unblock an admin account',
+  'delete an admin account': 'Delete an admin account',
+  'manage an admin account': 'Manage an admin account',
+  'are you sure you want to delete this role?':
+    'Are you sure you want to delete this role?',
+};
